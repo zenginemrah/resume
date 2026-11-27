@@ -1,1 +1,0 @@
-{ "name": "grain-desk-gate", "private": true, "scripts": { "dev": "wrangler dev", "deploy": "wrangler deploy" }, "devDependencies": { "wrangler": "4.169.0" } }

@@ -1070,6 +1070,33 @@ html.lt .lang{background:#fff}
 }
 @keyframes msin{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
 .sx{font-size:.42em;letter-spacing:.01em;margin-left:.12em}</style>
+
+<style id="gdcss">
+.gd{position:fixed;inset:0;z-index:90;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(6,12,20,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+html.lt .gd{background:rgba(20,35,58,.35)}
+.gd.open{opacity:1;visibility:visible}
+.gd-box{position:relative;width:100%;max-width:440px;background:var(--navy);border:1px solid var(--line);border-left:2px solid var(--gold);padding:32px 30px 28px;transform:translateY(14px);transition:transform .45s cubic-bezier(.2,.7,.2,1);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.gd.open .gd-box{transform:none}
+.gd-x{position:absolute;top:10px;right:10px;width:36px;height:36px;border:0;background:none;color:var(--mist);font-size:22px;line-height:1;cursor:pointer}
+.gd-x:hover{color:var(--gold)}
+.gd-k{font-size:12px;letter-spacing:.08em;color:var(--gold);margin-bottom:8px}
+.gd h3{font-size:24px;margin-bottom:10px}
+.gd p{font-size:14.5px;color:var(--mist);line-height:1.6;margin-bottom:18px}
+.gd label{display:block;font-size:13px;color:var(--gold);font-weight:500;margin-bottom:8px}
+.gd input[type=text]{width:100%;padding:12px 14px;min-height:46px;background:transparent;border:1px solid var(--line);color:var(--ivory);font:400 16px var(--sans);outline:none;transition:border-color .25s}
+.gd input[type=text]:focus{border-color:var(--gold)}
+.gd .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.gd .btn{margin-top:18px}
+.gd .btn[disabled]{opacity:.5;cursor:default}
+.gd-err{font-size:13px;color:#E08A7A;min-height:18px;margin-top:10px}
+.gd-wait{display:flex;align-items:center;gap:12px;font-size:14.5px;color:var(--ivory);margin-bottom:14px}
+.gd-wait::before{content:"";flex:none;width:9px;height:9px;border-radius:50%;background:var(--gold);animation:blink 1.4s ease-in-out infinite}
+.gd-who{font-family:var(--serif);font-size:19px;color:var(--gold);margin-bottom:6px}
+.gd-small{font-size:12.5px!important;color:var(--muted)!important;margin:14px 0 0!important}
+.gd-small button{background:none;border:0;padding:0;color:var(--mist);font:inherit;text-decoration:underline;cursor:pointer}
+.gd [hidden]{display:none!important}
+@media(max-width:600px){.gd-box{padding:28px 20px 22px}.gd h3{font-size:21px}}
+</style>
 </head>
 <body>
 <canvas id="fx" aria-hidden="true"></canvas>
@@ -1286,7 +1313,7 @@ html.lt .lang{background:#fff}
   <p class="lead a" style="--d:2">Net tanımlar, standartlar, izleme ve ölçülebilir çıktı. Aynı çalışma biçimini yapay zekâya uyguluyorum. Aşağıdakiler kişisel projelerim. Çalıştığım şirketler için geliştirdiğim yapay zekâ araçları ve otomasyonlar gizli kalıyor.</p>
   <div class="ai">
     <div class="card a" style="--d:3"><div class="tag">Kişisel proje · Kasım 2026'dan beri yayında</div><h3>Claude ile Erken Okumalar</h3><p>Otonom bir yayın hattı. Bir yapay zekâ ajanı her sabah 07.45'te konusunu kendisi seçip araştırdığı, yazdığı ve kaynak gösterdiği 13 dakikalık bir okumayı insan müdahalesi olmadan yayımlıyor.</p><div class="chips"><span>GitHub Pages</span><span>GitHub Actions</span><span>Telegram</span><span>Brevo</span><span>GoatCounter</span></div><a class="btn" href="https://thezngn.github.io/erken-okumalar/" target="_blank" rel="noopener">Siteyi ziyaret edin</a></div>
-    <div class="card a" style="--d:4"><div class="tag">Kişisel proje · talep üzerine demo</div><h3>Emtia Ticareti ve Riskten Korunma Terminali</h3><p>Claude ile geliştirdim. Fiziki ve kâğıt emtia ticaretinin tüm döngüsünü simüle eden, tarayıcıda çalışan bir terminal.</p><dl class="tl"><dt>Fiziki</dt><dd>Navlun, sürastarya, depolama, karşı taraf riski ve akreditifli ödemelerle FOB/CFR şartlarında ticaret</dd><dt>Fiyatlama</dt><dd>EFP (Exchange for Physical) ve vadeli kontrat devirleriyle sabit fiyat ve baz fiyatlama</dd><dt>Hedge</dt><dd>Vadeli kontratlar, opsiyonlar (delta, theta, vega, collar) ve döviz forwardları</dd><dt>Kâr/zarar</dt><dd>İşlem bazında fiziki ve hedge sonucu olarak ayrılan kâr/zarar, canlı hedge oranı ve net açık pozisyon</dd></dl><a class="btn" href="#contact">Demo talep edin</a></div>
+    <div class="card a" style="--d:4"><div class="tag">Kişisel proje · erişim talep üzerine</div><h3>Emtia Ticareti ve Riskten Korunma Terminali</h3><p>Claude ile geliştirdim. Fiziki ve kâğıt emtia ticaretinin tüm döngüsünü simüle eden, tarayıcıda çalışan bir terminal.</p><dl class="tl"><dt>Fiziki</dt><dd>Navlun, sürastarya, depolama, karşı taraf riski ve akreditifli ödemelerle FOB/CFR şartlarında ticaret</dd><dt>Fiyatlama</dt><dd>EFP (Exchange for Physical) ve vadeli kontrat devirleriyle sabit fiyat ve baz fiyatlama</dd><dt>Hedge</dt><dd>Vadeli kontratlar, opsiyonlar (delta, theta, vega, collar) ve döviz forwardları</dd><dt>Kâr/zarar</dt><dd>İşlem bazında fiziki ve hedge sonucu olarak ayrılan kâr/zarar, canlı hedge oranı ve net açık pozisyon</dd></dl><button class="btn" type="button" data-gd>Erişim iste</button></div>
   </div>
 </div></div></section>
 
@@ -1640,5 +1667,128 @@ if(!calm){
 }
 </script>
 <script>(function(){var a=document.querySelector(".qlink");if(!a)return;var t=0;a.addEventListener("click",function(e){if(matchMedia("(hover:none)").matches&&!t){e.preventDefault();t=1;a.focus();setTimeout(function(){t=0},4000);}});})();</script>
+
+<div class="gd" id="gd" role="dialog" aria-modal="true" aria-labelledby="gd-t" aria-hidden="true">
+ <div class="gd-box">
+  <button class="gd-x" type="button" data-gdx aria-label="Close">×</button>
+  <div class="gd-k">Grain Desk</div>
+  <section data-s="form">
+   <h3 id="gd-t" data-t="title"></h3>
+   <p data-t="intro"></p>
+   <form novalidate>
+    <label for="gd-n" data-t="label"></label>
+    <input id="gd-n" type="text" autocomplete="name" maxlength="80" required>
+    <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="gd-err" role="alert"></div>
+    <button class="btn" type="submit" data-t="send"></button>
+   </form>
+  </section>
+  <section data-s="wait" hidden>
+   <h3 data-t="sentT"></h3>
+   <div class="gd-who"></div>
+   <div class="gd-wait" data-t="wait"></div>
+   <p data-t="waitP"></p>
+  </section>
+  <section data-s="ok" hidden>
+   <h3 data-t="okT"></h3>
+   <div class="gd-who"></div>
+   <p class="gd-until"></p>
+   <a class="btn" target="_blank" rel="noopener" data-t="open"></a>
+   <p class="gd-small" data-t="okP"></p>
+  </section>
+  <section data-s="no" hidden>
+   <h3 data-t="noT"></h3>
+   <p data-t="noP"></p>
+   <a class="btn" href="#contact" data-gdx data-t="contact"></a>
+  </section>
+  <p class="gd-small gd-again" hidden><button type="button" data-gdnew data-t="again"></button></p>
+ </div>
+</div>
+
+<script>
+(function(){
+var GATE="https://grain-desk.emrahzengin.workers.dev";
+var TR=document.documentElement.lang==='tr';
+var T=TR?{
+ title:'Grain Desk erişimi',intro:'Adınızı ve soyadınızı yazın, isteğiniz bana anında iletilsin. Onayladığımda size özel bağlantı bu pencerede açılır; 7 gün geçerlidir.',
+ label:'Ad soyad',send:'İstek gönder',sending:'Gönderiliyor…',sentT:'İsteğiniz iletildi',wait:'Onay bekleniyor…',
+ waitP:'Bu pencereyi kapatabilirsiniz. Daha sonra sayfaya döndüğünüzde bağlantınız burada olacak.',
+ okT:'Erişim onaylandı',open:'Grain Desk’i aç',okP:'Bağlantı yalnızca bu tarayıcıda görünür; lütfen paylaşmayın.',until:'Geçerlilik: ',
+ noT:'Bu sefer olmadı',noP:'Erişim şu an verilemedi. Dilerseniz benimle doğrudan iletişime geçebilirsiniz.',contact:'İletişim',
+ expT:'Erişim süresi doldu',again:'Yeni istek gönder',
+ eName:'Lütfen adınızı ve soyadınızı yazın.',eMany:'Çok fazla istek gönderildi. Lütfen biraz sonra tekrar deneyin.',eNet:'İstek şu an gönderilemedi. Lütfen iletişim sayfasından bana ulaşın.',
+ preview:' (Önizleme: servis kurulunca burada kişiye özel bağlantı çıkacak.)'
+}:{
+ title:'Access to Grain Desk',intro:'Enter your full name and your request reaches me right away. Once I approve it, your personal link opens in this window; it stays valid for 7 days.',
+ label:'Full name',send:'Send request',sending:'Sending…',sentT:'Request sent',wait:'Waiting for approval…',
+ waitP:'You can close this window. When you come back to this page, your link will be here.',
+ okT:'Access approved',open:'Open Grain Desk',okP:'The link is shown only in this browser; please do not share it.',until:'Valid until ',
+ noT:'Not this time',noP:'Access could not be granted right now. You are welcome to contact me directly.',contact:'Contact',
+ expT:'Access has expired',again:'Send a new request',
+ eName:'Please enter your first and last name.',eMany:'Too many requests. Please try again a little later.',eNet:'The request could not be sent right now. Please reach me via the contact page.',
+ preview:' (Preview: once the service is set up, the personal link appears here.)'
+};
+var d=document.getElementById('gd');if(!d)return;
+d.querySelectorAll('[data-t]').forEach(function(e){e.textContent=T[e.dataset.t]||'';});
+var form=d.querySelector('form'),inp=d.querySelector('#gd-n'),err=d.querySelector('.gd-err'),sub=form.querySelector('[type=submit]'),again=d.querySelector('.gd-again');
+var K='gd-req',timer=null,last=null;
+function ls(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||'null');if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,JSON.stringify(v));}catch(e){return null;}}
+function show(s){d.querySelectorAll('[data-s]').forEach(function(x){x.hidden=x.dataset.s!==s;});again.hidden=!(s==='no');}
+function who(n){d.querySelectorAll('.gd-who').forEach(function(x){x.textContent=n||'';});}
+function fmt(ms){try{return new Date(ms).toLocaleDateString(TR?'tr-TR':'en-GB',{day:'numeric',month:'long',year:'numeric'});}catch(e){return '';}}
+function render(st){
+ var r=ls(K);who(r&&r.name);
+ if(!st||st.status==='pending'){show('wait');return;}
+ if(st.status==='approved'){show('ok');var a=d.querySelector('[data-s=ok] a');a.href=st.url||'#';
+  d.querySelector('.gd-until').textContent=st.url?T.until+fmt(st.exp):T.preview;
+  if(!st.url)a.removeAttribute('target');return;}
+ stopPoll();
+ var noT=d.querySelector('[data-s=no] h3');noT.textContent=st.status==='expired'?T.expT:T.noT;
+ show('no');
+}
+function poll(){
+ var r=ls(K);if(!r)return;
+ if(!GATE){render(last);return;}
+ fetch(GATE+'/api/status?id='+encodeURIComponent(r.id)).then(function(x){return x.json();}).then(function(st){
+  last=st;if(st.status==='unknown'){ls(K,null);stopPoll();show('form');return;}render(st);
+ }).catch(function(){});
+}
+function startPoll(){stopPoll();poll();timer=setInterval(poll,5000);}
+function stopPoll(){if(timer){clearInterval(timer);timer=null;}}
+function open(){
+ d.classList.add('open');d.setAttribute('aria-hidden','false');
+ if(ls(K)){render(last);startPoll();}else{show('form');err.textContent='';setTimeout(function(){inp.focus();},300);}
+}
+function close(){d.classList.remove('open');d.setAttribute('aria-hidden','true');stopPoll();}
+document.addEventListener('click',function(e){
+ if(e.target.closest('[data-gd]')){e.preventDefault();open();return;}
+ if(d.classList.contains('open')&&(e.target===d||e.target.closest('[data-gdx]'))){close();}
+});
+['wheel','touchstart','touchend','touchmove'].forEach(function(ev){d.addEventListener(ev,function(e){e.stopPropagation();},{passive:true});});
+d.addEventListener('keydown',function(e){e.stopPropagation();if(e.key==='Escape')close();});
+d.querySelector('[data-gdnew]').addEventListener('click',function(){ls(K,null);last=null;inp.value='';show('form');inp.focus();});
+form.addEventListener('submit',function(e){
+ e.preventDefault();
+ var name=inp.value.replace(/\s+/g,' ').trim();
+ if(name.length<3||name.indexOf(' ')<0){err.textContent=T.eName;inp.focus();return;}
+ err.textContent='';sub.disabled=true;sub.textContent=T.sending;
+ var done=function(){sub.disabled=false;sub.textContent=T.send;};
+ if(!GATE){
+  setTimeout(function(){done();ls(K,{id:'preview',name:name});last={status:'pending'};render(last);
+   setTimeout(function(){last={status:'approved'};if(d.classList.contains('open'))render(last);},4000);},600);
+  return;
+ }
+ fetch(GATE+'/api/request',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:name,website:form.website.value})})
+ .then(function(x){return x.json().then(function(j){return {s:x.status,j:j};});})
+ .then(function(r){done();
+  if(r.j&&r.j.id){ls(K,{id:r.j.id,name:name});last={status:'pending'};render(last);startPoll();}
+  else err.textContent=r.s===429?T.eMany:(r.j&&r.j.error==='name_required'?T.eName:T.eNet);
+ }).catch(function(){done();err.textContent=T.eNet;});
+});
+// a returning visitor with an approved request sees "Open Grain Desk" on the card
+if(GATE&&ls(K)){fetch(GATE+'/api/status?id='+encodeURIComponent(ls(K).id)).then(function(x){return x.json();}).then(function(st){
+ last=st;if(st.status==='approved')document.querySelectorAll('[data-gd]').forEach(function(b){b.textContent=T.open;});}).catch(function(){});}
+})();
+</script>
 </body>
 </html>
